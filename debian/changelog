@@ -1,0 +1,5 @@
+munin-plugins-gitlab (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release
+
+ -- Matthias Lohr <mail@mlohr.com>  Sat, 18 Apr 2026 13:44:00 +0200

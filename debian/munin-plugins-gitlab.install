@@ -1,0 +1,2 @@
+lib usr/share/munin-gitlab
+gitlab_* usr/share/munin-gitlab

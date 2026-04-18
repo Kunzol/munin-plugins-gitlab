@@ -1,0 +1,17 @@
+Source: munin-plugins-gitlab
+Section: net
+Priority: optional
+Maintainer: Matthias Lohr <mail@mlohr.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/#PACKAGE#
+#Vcs-Git: https://salsa.debian.org/debian/#PACKAGE#.git
+Rules-Requires-Root: no
+
+Package: munin-plugins-gitlab
+Architecture: all
+Depends: ${misc:Depends}, gitlab-ce (>= 18.10.0) | gitlab-ee (>= 18.10.0), munin-node, python3:any, python-psycopg2
+Description: munin plugins for monitoring GitLab omnibus
+ Additional munin plugins to monitor a local GitLab omnibus
+ instance.
